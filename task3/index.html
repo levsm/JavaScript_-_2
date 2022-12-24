@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+
+<script>
+
+/*
+3
+В переменной day лежит какое-то число из интервала от 1 до 31.
+Определите в какую декаду месяца попадает
+это число (в первую, вторую или третью).*/
+
+    const day = prompt('Введите число месяца');
+    const x = day;
+    const a = 1;
+    const b = 10;
+    const c = 20;
+    const d = 31;
+
+    if (x >= a && x <= b) alert(`Число ${x} 'это первая декада месяца'`)
+
+    else if (x >= 11 && x <= c) {
+         alert(`Число ${x} 'это вторая декада месяца'`)
+     }
+     else if (x >= 21 && x <= d) {
+         alert(`Число ${x} 'это третья декада месяца'`)
+ }
+
+</script>
+
+    <script src="script.js"></script>
+</body>
+</html>
